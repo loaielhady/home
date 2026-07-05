@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loai Elhady — DevOps Engineer</title>
+<meta name="description" content="Loai Elhady — DevOps Engineer transitioning from IT Operations. CS graduate, infrastructure automation, CI/CD, and MLOps.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&%23x1F5A5;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="crt-overlay" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar__row">
+    <span class="logo">loai<span class="logo__dim">@</span>devops<span class="logo__cursor">_</span></span>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">about</a>
+      <a href="#services">skills</a>
+      <a href="#deployments">projects</a>
+      <a href="#log">experience</a>
+      <a href="#credentials">credentials</a>
+      <a href="#contact" class="nav__cta">contact</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+    <a href="#about">about</a>
+    <a href="#services">skills</a>
+    <a href="#deployments">projects</a>
+    <a href="#log">experience</a>
+    <a href="#credentials">credentials</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="terminal" role="img" aria-label="Terminal window introducing Loai Elhady, DevOps Engineer">
+      <div class="terminal__bar">
+        <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+        <span class="terminal__title">loai@devops-engineer:~</span>
+      </div>
+      <div class="terminal__body" id="typewriter">
+        <p class="line"><span class="prompt">$</span> whoami</p>
+        <p class="line line--out" data-final="Loai Elhady"><span></span></p>
+        <p class="line"><span class="prompt">$</span> cat role.txt</p>
+        <p class="line line--out" data-final="DevOps Engineer — formerly IT Operations & Infrastructure"><span></span></p>
+        <p class="line"><span class="prompt">$</span> uptime --career</p>
+        <p class="line line--out line--uptime">
+          <span class="uptime-label">career uptime:</span>
+          <span id="uptime-counter" class="uptime-value">calculating…</span>
+        </p>
+        <p class="line line--final"><span class="prompt">$</span> <span class="cursor-blink">▌</span></p>
+      </div>
+    </div>
+
+    <div class="hero__meta">
+      <p class="hero__tagline">Computer Science graduate. Five years keeping systems running by hand. Now automating that same reliability into code.</p>
+      <div class="hero__links">
+        <a class="btn btn--primary" href="#deployments">view deployments →</a>
+        <a class="btn btn--ghost" href="#contact">get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap">
+    <p class="eyebrow">/ 01 · about</p>
+    <div class="section__grid">
+      <h2 class="section__heading">Same discipline.<br>New toolchain.</h2>
+      <div class="section__body">
+        <p>I spent five years on the physical side of IT — cabling racks, configuring switches, keeping printers and workstations alive for companies that couldn't afford downtime. Then I finished a Computer Science degree and realized the discipline was the same: systems have to stay up, and when they don't, someone has to know exactly why.</p>
+        <p>DevOps is where that meets code. I'm the main contributor on a live MLOps platform running on a real VPS — Docker Compose, Nginx, GitHub Actions, SSL, the works — and I'm building out the Linux, database, and load-balancing skills to go with it. Azure AZ-900 certified. AWS certifications in progress.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES / SKILLS -->
+  <section id="services" class="section wrap">
+    <p class="eyebrow">/ 02 · skills</p>
+    <h2 class="section__heading">systemctl status --all</h2>
+    <p class="section__intro">Every skill below is a service I can actually stand up, not a list of buzzwords.</p>
+
+    <div class="status-table" role="table" aria-label="Skills and status">
+      <div class="status-row status-row--head" role="row">
+        <span role="columnheader">service</span>
+        <span role="columnheader">category</span>
+        <span role="columnheader">status</span>
+      </div>
+
+      <div class="status-row" role="row"><span role="cell">docker · docker-compose</span><span role="cell" class="dim">containerization</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">github-actions</span><span role="cell" class="dim">ci / cd</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">nginx</span><span role="cell" class="dim">reverse proxy</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">haproxy</span><span role="cell" class="dim">load balancing</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">certbot · ssl/tls</span><span role="cell" class="dim">security</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">postgresql · pgbouncer</span><span role="cell" class="dim">databases</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">bash</span><span role="cell" class="dim">automation</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">mlflow · prefect · fastapi</span><span role="cell" class="dim">mlops tooling</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">linux · windows server</span><span role="cell" class="dim">operating systems</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">networking · cabling</span><span role="cell" class="dim">infrastructure</span><span role="cell" class="status status--active">● active</span></div>
+      <div class="status-row" role="row"><span role="cell">aws (cloud practitioner · saa)</span><span role="cell" class="dim">cloud platforms</span><span role="cell" class="status status--pending">◐ starting…</span></div>
+      <div class="status-row" role="row"><span role="cell">kubernetes</span><span role="cell" class="dim">orchestration</span><span role="cell" class="status status--pending">◐ starting…</span></div>
+    </div>
+  </section>
+
+  <!-- DEPLOYMENTS / PROJECTS -->
+  <section id="deployments" class="section wrap">
+    <p class="eyebrow">/ 03 · projects</p>
+    <h2 class="section__heading">docker ps --deployments</h2>
+    <p class="section__intro">What's actually running in production, and what's built and ready.</p>
+
+    <article class="deploy-card deploy-card--featured">
+      <div class="deploy-card__top">
+        <div>
+          <p class="deploy-card__eyebrow">main contributor</p>
+          <h3 class="deploy-card__title">SAiRCAMP MLOps</h3>
+        </div>
+        <span class="status status--live">● live in production</span>
+      </div>
+      <p class="deploy-card__desc">An 8-module MLOps build taken from a raw notebook to a secured, auto-deploying production system on a real VPS — NYC taxi trip-duration prediction with drift monitoring on 2019–2024 data.</p>
+      <div class="deploy-card__diagram" aria-hidden="true">
+        <span>git push</span><span class="arrow">→</span><span>github actions</span><span class="arrow">→</span><span>vps</span><span class="arrow">→</span><span>nginx + ssl</span>
+      </div>
+      <div class="deploy-card__tags">
+        <span class="tag">docker compose</span><span class="tag">nginx</span><span class="tag">github actions</span><span class="tag">mlflow</span><span class="tag">prefect</span><span class="tag">certbot</span>
+      </div>
+      <a class="deploy-card__link" href="https://mlops123.duckdns.org/" target="_blank" rel="noopener">visit mlops123.duckdns.org →</a>
+    </article>
+
+    <div class="deploy-grid">
+      <article class="deploy-card">
+        <div class="deploy-card__top">
+          <h3 class="deploy-card__title">Scripts_Bash_linux</h3>
+          <span class="status status--built">● built</span>
+        </div>
+        <p class="deploy-card__desc">Bash scripts for Linux administration, task automation, and repeatable operational workflows.</p>
+        <div class="deploy-card__tags"><span class="tag">bash</span><span class="tag">linux</span></div>
+        <a class="deploy-card__link" href="https://github.com/loaielhady/Scripts_Bash_linux" target="_blank" rel="noopener">view repo →</a>
+      </article>
+
+      <article class="deploy-card">
+        <div class="deploy-card__top">
+          <h3 class="deploy-card__title">Nginx</h3>
+          <span class="status status--built">● built</span>
+        </div>
+        <p class="deploy-card__desc">Web server and reverse-proxy configuration — static serving and traffic routing.</p>
+        <div class="deploy-card__tags"><span class="tag">nginx</span><span class="tag">reverse proxy</span></div>
+        <a class="deploy-card__link" href="https://github.com/loaielhady/Ngnix" target="_blank" rel="noopener">view repo →</a>
+      </article>
+
+      <article class="deploy-card">
+        <div class="deploy-card__top">
+          <h3 class="deploy-card__title">PostgreSQL</h3>
+          <span class="status status--built">● built</span>
+        </div>
+        <p class="deploy-card__desc">Database installation, configuration, and core administration practice.</p>
+        <div class="deploy-card__tags"><span class="tag">postgresql</span><span class="tag">sql</span></div>
+        <a class="deploy-card__link" href="https://github.com/loaielhady/PostgreSQL" target="_blank" rel="noopener">view repo →</a>
+      </article>
+
+      <article class="deploy-card">
+        <div class="deploy-card__top">
+          <h3 class="deploy-card__title">Pgbouncer + PostgreSQL</h3>
+          <span class="status status--built">● built</span>
+        </div>
+        <p class="deploy-card__desc">Connection pooling in front of PostgreSQL for scalable data infrastructure.</p>
+        <div class="deploy-card__tags"><span class="tag">pgbouncer</span><span class="tag">postgresql</span></div>
+        <a class="deploy-card__link" href="https://github.com/loaielhady/Pgbouncer_with_Postgresql" target="_blank" rel="noopener">view repo →</a>
+      </article>
+
+      <article class="deploy-card">
+        <div class="deploy-card__top">
+          <h3 class="deploy-card__title">HAProxy</h3>
+          <span class="status status--built">● built</span>
+        </div>
+        <p class="deploy-card__desc">Load balancer setup exploring high-availability and traffic distribution.</p>
+        <div class="deploy-card__tags"><span class="tag">haproxy</span><span class="tag">load balancing</span></div>
+        <a class="deploy-card__link" href="https://github.com/loaielhady/HAproxy" target="_blank" rel="noopener">view repo →</a>
+      </article>
+
+      <article class="deploy-card deploy-card--next">
+        <div class="deploy-card__top">
+          <h3 class="deploy-card__title">Kubernetes</h3>
+          <span class="status status--pending">◐ pulling image…</span>
+        </div>
+        <p class="deploy-card__desc">Next up: taking the MLOps stack from Docker Compose to full container orchestration.</p>
+        <div class="deploy-card__tags"><span class="tag">k8s</span><span class="tag">in progress</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- LOG / EXPERIENCE -->
+  <section id="log" class="section wrap">
+    <p class="eyebrow">/ 04 · experience</p>
+    <h2 class="section__heading">git log --oneline --reverse</h2>
+
+    <ol class="commit-log">
+      <li class="commit">
+        <button class="commit__row" aria-expanded="false">
+          <span class="commit__hash">a1e4f9c</span>
+          <span class="commit__msg">Digital Services Officer — Confidential Company</span>
+          <span class="commit__date">2023 → present</span>
+          <span class="commit__chevron">›</span>
+        </button>
+        <div class="commit__body">
+          <ul>
+            <li>Administered digital records and account systems — 200+ employee requests processed with full accuracy</li>
+            <li>Held <strong>zero data entry errors</strong> across three consecutive audit periods</li>
+            <li>Wrote technical documentation that cut administrative turnaround time by <strong>25%</strong></li>
+            <li>Maintained <strong>100% compliance</strong> with data retention policy across departments</li>
+          </ul>
+        </div>
+      </li>
+      <li class="commit">
+        <button class="commit__row" aria-expanded="false">
+          <span class="commit__hash">7d2b6a1</span>
+          <span class="commit__msg">IT &amp; Printer Maintenance Assistant — Freelance / Contract</span>
+          <span class="commit__date">2019 → 2023</span>
+          <span class="commit__chevron">›</span>
+        </button>
+        <div class="commit__body">
+          <ul>
+            <li>Repaired 100+ computers and printers at a <strong>90%+ first-time resolution rate</strong></li>
+            <li>Installed and configured 50+ CCTV systems for residential and business clients</li>
+            <li>Delivered field networking support — cabling, hardware — across 30+ site visits</li>
+            <li>Served 10+ government offices and 20+ private companies; cut downtime <strong>40%</strong></li>
+          </ul>
+        </div>
+      </li>
+      <li class="commit">
+        <button class="commit__row" aria-expanded="false">
+          <span class="commit__hash">3f9c0e5</span>
+          <span class="commit__msg">Printer Maintenance Technician — INKMATE</span>
+          <span class="commit__date">2020</span>
+          <span class="commit__chevron">›</span>
+        </button>
+        <div class="commit__body">
+          <ul>
+            <li>Maintained 50+ high-volume printers — ink systems, drivers, hardware faults</li>
+            <li>Achieved a <strong>95% first-visit recovery rate</strong></li>
+          </ul>
+        </div>
+      </li>
+      <li class="commit">
+        <button class="commit__row" aria-expanded="false">
+          <span class="commit__hash">0a8e2d4</span>
+          <span class="commit__msg">IT Technician (Intern → Technician) — Alfafa for Computers</span>
+          <span class="commit__date">2020</span>
+          <span class="commit__chevron">›</span>
+        </button>
+        <div class="commit__body">
+          <ul>
+            <li>Audited hardware/software and applied security patches across 120+ workstations</li>
+            <li>Installed drivers, antivirus, and software for 80+ client systems</li>
+            <li>Configured networking — cabling, routers — for 15+ small office deployments</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- CREDENTIALS -->
+  <section id="credentials" class="section wrap">
+    <p class="eyebrow">/ 05 · credentials</p>
+    <h2 class="section__heading">cat credentials.env</h2>
+
+    <div class="credentials-grid">
+      <div class="credential-block">
+        <h3>education</h3>
+        <p class="credential-block__main">B.Sc. Computer Science</p>
+        <p class="credential-block__sub">University of Sennar · Faculty of Computer Science &amp; IT · 2015–2022</p>
+      </div>
+      <div class="credential-block">
+        <h3>certified</h3>
+        <ul class="credential-list">
+          <li>Microsoft Azure AZ-900 <span class="dim">(Azure Fundamentals)</span></li>
+          <li>CCNA <span class="dim">(Cisco Certified Network Associate)</span></li>
+          <li>AI Starter Kit <span class="dim">— ALX</span></li>
+        </ul>
+      </div>
+      <div class="credential-block">
+        <h3>in progress</h3>
+        <ul class="credential-list">
+          <li>AWS Cloud Practitioner</li>
+          <li>AWS Solutions Architect</li>
+          <li>ALX Professional Foundation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section--contact wrap">
+    <p class="eyebrow">/ 06 · contact</p>
+    <h2 class="section__heading">Open to DevOps &amp; SRE roles.</h2>
+    <p class="section__intro">Reachable any time — I respond fast, it's a habit from five years of support tickets.</p>
+
+    <div class="contact-terminal">
+      <p class="line"><span class="prompt">$</span> contact --email <a href="mailto:looai.elhady@gmail.com">looai.elhady@gmail.com</a></p>
+      <p class="line"><span class="prompt">$</span> contact --linkedin <a href="https://www.linkedin.com/in/loai-elhady/" target="_blank" rel="noopener">linkedin.com/in/loai-elhady</a></p>
+      <p class="line"><span class="prompt">$</span> contact --github <a href="https://github.com/loaielhady" target="_blank" rel="noopener">github.com/loaielhady</a></p>
+    </div>
+
+    <div class="hero__links contact__cta">
+      <a class="btn btn--primary" href="mailto:looai.elhady@gmail.com">send an email →</a>
+      <a class="btn btn--ghost" href="https://www.linkedin.com/in/loai-elhady/" target="_blank" rel="noopener">connect on linkedin</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <span>© <span id="year"></span> Loai Elhady</span>
+    <span class="footer__uptime">uptime: <span id="uptime-footer">…</span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
